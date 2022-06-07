@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ExerciceCShartparti1/1.0.0": {
+        "runtime": {
+          "ExerciceCShartparti1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExerciceCShartparti1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

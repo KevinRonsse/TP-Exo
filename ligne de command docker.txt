@@ -1,0 +1,5 @@
+docker build -t kevin/app-web-m2i . commande pour le repository
+docker run -d -p 8085:80 --name fist-app-docker kevin/app-web-m2i 
+docker image tag kevin/app-web-m2i kronsse/app-web
+
+docker image push kronsse/app-web
