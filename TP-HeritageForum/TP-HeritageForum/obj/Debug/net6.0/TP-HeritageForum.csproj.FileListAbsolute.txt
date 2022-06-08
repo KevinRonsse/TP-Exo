@@ -1,0 +1,5 @@
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-HeritageForum\TP-HeritageForum\obj\Debug\net6.0\TP-HeritageForum.csproj.AssemblyReference.cache
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-HeritageForum\TP-HeritageForum\obj\Debug\net6.0\TP-HeritageForum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-HeritageForum\TP-HeritageForum\obj\Debug\net6.0\TP-HeritageForum.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-HeritageForum\TP-HeritageForum\obj\Debug\net6.0\TP-HeritageForum.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-HeritageForum\TP-HeritageForum\obj\Debug\net6.0\TP-HeritageForum.csproj.CoreCompileInputs.cache

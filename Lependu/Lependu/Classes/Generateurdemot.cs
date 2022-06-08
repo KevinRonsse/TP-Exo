@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Lependu.Classes
 {
-    internal class Class1
+    class Generateurdemot
     {
+       private string[] mots = new string[] { "google", "amazon", "facebook", "apple", "microsoft" };
+      private Random random = new Random();
+        public string Generer()
+        {
+            return mots[random.Next(0, mots.Length)];
+        }
     }
+
+
+    
 }

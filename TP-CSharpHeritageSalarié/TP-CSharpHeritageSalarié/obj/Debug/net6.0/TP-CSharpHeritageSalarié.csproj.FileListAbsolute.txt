@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\obj\Debug\net6.0\TP-CSharpHeritageSalarié.csproj.AssemblyReference.cache
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\obj\Debug\net6.0\TP-CSharpHeritageSalarié.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\obj\Debug\net6.0\TP-CSharpHeritageSalarié.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\obj\Debug\net6.0\TP-CSharpHeritageSalarié.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\obj\Debug\net6.0\TP-CSharpHeritageSalarié.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\bin\Debug\net6.0\TP-CSharpHeritageSalarié.exe
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\bin\Debug\net6.0\TP-CSharpHeritageSalarié.deps.json
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\bin\Debug\net6.0\TP-CSharpHeritageSalarié.runtimeconfig.json
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\bin\Debug\net6.0\TP-CSharpHeritageSalarié.dll
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\bin\Debug\net6.0\TP-CSharpHeritageSalarié.pdb
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\obj\Debug\net6.0\TP-CSharpHeritageSalarié.dll
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\obj\Debug\net6.0\refint\TP-CSharpHeritageSalarié.dll
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\obj\Debug\net6.0\TP-CSharpHeritageSalarié.pdb
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\obj\Debug\net6.0\TP-CSharpHeritageSalarié.genruntimeconfig.cache
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\TP-CSharpHeritageSalarié\TP-CSharpHeritageSalarié\obj\Debug\net6.0\ref\TP-CSharpHeritageSalarié.dll

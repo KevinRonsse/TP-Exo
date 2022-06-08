@@ -12,22 +12,55 @@ namespace Lependu.Classes
         private string masque;
         private string motATrouve;
 
-        public int NbEssai { get => nbEssai; set => nbEssai = value; }
-        public string Masque { get => masque; set => masque = value; }
-        public string MotATrouve { get => motATrouve; set => motATrouve = value; }
-    }
+        public int NbEssai { get => nbEssai; }
+        public string Masque { get => masque; }
+        public string MotATrouve { get => motATrouve; }
 
-    public static string TestChar()
-    {
+        public LePendu()
+        {
+            nbEssai = 10;
+        }
 
-    }
 
-    public static string TestWin()
-    {
+        public bool TestChar(char c)
+        {
 
-    }
-    public static string GenererMasque()
-    {
+            bool found = false;
+            string masqueTmp = "";
+            for (int i = 0; i < motATrouve.Length; i++)
+            {
+                if (motATrouve[i] == c)
+                {
+                    found = true;
+                    masqueTmp += c;
+                }
+                else
+                {
+                    masqueTmp += masque[i];
+                }
 
+
+            }
+            masque=masqueTmp;
+            if (!found)
+            {
+                nbEssai--;
+            }
+            return found;
+        }
+        public bool TestWin()
+        {
+            return motATrouve == masque;
+        }
+        public void GenererMasque(Generateurdemot generateur)
+        {
+            string masquetmp = "";
+            motATrouve = generateur.Generer();
+            for(int i = 0; i < motATrouve.Length; i++)
+            {
+                masquetmp += "*";
+            }
+            masque = masquetmp;
+        }
     }
 }
