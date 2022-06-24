@@ -1,0 +1,8 @@
+sqllocaldb c nomdelapplilcation creer application
+"" s nomdelapplication pour lancer
+
+
+IDE
+Affichage 
+explorateur server
+(LocalDb)\CoursDotNet
