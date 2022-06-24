@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace caisseenrigistreuse.Classes
 {
-    internal class CardPayment
+    public class CardPayment : Payment
     {
+        public override bool Pay(decimal amount)
+        {
+            return amount % 2 == 0;
+        }
     }
 }
