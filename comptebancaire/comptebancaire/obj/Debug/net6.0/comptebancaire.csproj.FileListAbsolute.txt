@@ -1,0 +1,5 @@
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\comptebancaire\comptebancaire\obj\Debug\net6.0\comptebancaire.csproj.AssemblyReference.cache
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\comptebancaire\comptebancaire\obj\Debug\net6.0\comptebancaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\comptebancaire\comptebancaire\obj\Debug\net6.0\comptebancaire.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\comptebancaire\comptebancaire\obj\Debug\net6.0\comptebancaire.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\comptebancaire\comptebancaire\obj\Debug\net6.0\comptebancaire.csproj.CoreCompileInputs.cache

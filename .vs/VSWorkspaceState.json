@@ -1,7 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ExerciceCSharpPOO"
+    "\\caisseenrigistreuse",
+    "\\caisseenrigistreuse\\caisseenrigistreuse",
+    "\\caisseenrigistreuse\\caisseenrigistreuse\\Classes",
+    "\\caisseenrigistreuse\\caisseenrigistreuse\\DAO",
+    "\\ExerciceCSharpPOO",
+    "\\tp-netflix",
+    "\\tp-netflix\\Bonus",
+    "\\tp-netflix\\Front",
+    "\\tp-netflix\\Front\\src"
   ],
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,84 @@
+﻿using comptebancaire.Classes;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace comptebancaire.DAO
+{
+    public class OperationDAO : BaseDAO<Operation>
+    {
+        public OperationDAO()
+        {
+
+        }
+        public OperationDAO(SqlConnection connection, SqlTransaction transaction) : base(connection, transaction)
+        {
+        }
+
+        public override Operation Get(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override List<Operation> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Operation> GetAll(int accountId)
+        {
+            List<Operation> list = new List<Operation>();
+            request = "SELECT id, amount, operation_date_time from operation where account_id=@accountId";
+            _connection = DataBase.Connection;
+            _command = new SqlCommand(request, _connection);
+            _command.Parameters.Add(new SqlParameter("@accountId", accountId));
+            _connection.Open();
+            _reader = _command.ExecuteReader();
+            while (_reader.Read())
+            {
+                Operation o = new Operation(_reader.GetDecimal(1))
+                {
+                    Id = _reader.GetInt32(0),
+                    OperationDateTime = _reader.GetDateTime(2),
+                    AccountId = accountId
+                };
+                list.Add(o);
+            }
+            _reader.Close();
+            _command.Dispose();
+            _connection.Close();
+            return list;
+        }
+
+        public override bool Save(Operation element)
+        {
+            request = "INSERT INTO operation (amount, operation_date_time, account_id) " +
+                "OUTPUT INSERTED.ID values " +
+                "(@amount, @operationDateTime, @accountId)";
+            bool isOpen = _connection.State == ConnectionState.Open;
+            _connection = (isOpen) ? _connection : DataBase.Connection;
+            _command = new SqlCommand(request, _connection);
+            if (isOpen && _transaction != null)
+            {
+                _command.Transaction = _transaction;
+            }
+            _command.Parameters.Add(new SqlParameter("@amount", element.Amount));
+            _command.Parameters.Add(new SqlParameter("@operationDateTime", element.OperationDateTime));
+            _command.Parameters.Add(new SqlParameter("@accountId", element.AccountId));
+            if (!isOpen)
+                _connection.Open();
+            element.Id = (int)_command.ExecuteScalar();
+            _command.Dispose();
+            if (!isOpen)
+                _connection.Close();
+            return element.Id > 0;
+        }
+        lementedException();
+
+        
+    }
+}
