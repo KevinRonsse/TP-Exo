@@ -1,11 +1,6 @@
 ﻿using comptebancaire.Classes;
-using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace comptebancaire.DAO
 {
@@ -54,6 +49,11 @@ namespace comptebancaire.DAO
             return list;
         }
 
+        internal List<Operation> getAll(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public override bool Save(Operation element)
         {
             request = "INSERT INTO operation (amount, operation_date_time, account_id) " +
@@ -77,7 +77,8 @@ namespace comptebancaire.DAO
                 _connection.Close();
             return element.Id > 0;
         }
-        lementedException();
+
+        private lementedException();
 
         
     }

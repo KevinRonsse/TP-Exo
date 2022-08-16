@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\caisseenrigistreuse",
-    "\\caisseenrigistreuse\\caisseenrigistreuse",
-    "\\caisseenrigistreuse\\caisseenrigistreuse\\Classes",
-    "\\caisseenrigistreuse\\caisseenrigistreuse\\DAO",
+    "\\CoursAPI\\CoursAPI",
+    "\\CoursAPI\\CoursAPI\\Properties",
     "\\ExerciceCSharpPOO",
-    "\\tp-netflix",
-    "\\tp-netflix\\Bonus",
-    "\\tp-netflix\\Front",
-    "\\tp-netflix\\Front\\src"
+    "\\Exoentityannuaire",
+    "\\Exoentityannuaire\\Exoentityannuaire",
+    "\\Exoentityannuaire\\Exoentityannuaire\\Classes",
+    "\\Exoentityannuaire\\Exoentityannuaire\\Migrations",
+    "\\Exoentityannuaire\\Exoentityannuaire\\Tools",
+    "\\Xamarin"
   ],
+  "SelectedNode": "\\Xamarin",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,7 @@
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\ExoBank\BankAPI\BankAPI\obj\Debug\net6.0\BankAPI.csproj.AssemblyReference.cache
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\ExoBank\BankAPI\BankAPI\obj\Debug\net6.0\BankAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\ExoBank\BankAPI\BankAPI\obj\Debug\net6.0\BankAPI.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\ExoBank\BankAPI\BankAPI\obj\Debug\net6.0\BankAPI.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\ExoBank\BankAPI\BankAPI\obj\Debug\net6.0\BankAPI.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\ExoBank\BankAPI\BankAPI\obj\Debug\net6.0\BankAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrateur\Desktop\IDPExercice\FullStack-main\ExoBank\BankAPI\BankAPI\obj\Debug\net6.0\BankAPI.MvcApplicationPartsAssemblyInfo.cache

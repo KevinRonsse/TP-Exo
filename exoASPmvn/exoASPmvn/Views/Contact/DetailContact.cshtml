@@ -1,0 +1,11 @@
+﻿@model Contact
+
+@if(Model == null) {
+    <div>
+        Aucun contact avec cet id
+    </div>
+}else {
+    <div>
+        @Model.Nom @Model.Prenom @Model.Telephone
+    </div>
+}

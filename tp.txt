@@ -1,0 +1,11 @@
+tp petite annonce
+
+page 1 formulaire
+ajouter une annonce via id titre description categorie
+prix image 
+
+page accueil
+liste des annonce titre prix image
+
+page detail annonce
+titre description image

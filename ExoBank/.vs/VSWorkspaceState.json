@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BankAPI",
+    "\\BankAPI\\BankAPI",
+    "\\BankAPI\\BankAPI\\Controllers",
+    "\\BankAPI\\BankAPI\\Properties",
+    "\\BankEntityFrameWork",
+    "\\BankEntityFrameWork\\BankEntityFrameWork",
+    "\\BankEntityFrameWork\\BankEntityFrameWork\\Tools"
+  ],
+  "SelectedNode": "\\BankEntityFrameWork\\BankEntityFrameWork.sln",
+  "PreviewInSolutionExplorer": false
+}

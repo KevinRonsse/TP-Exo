@@ -1,0 +1,42 @@
+﻿using BankEntityFrameWork.Classes;
+using BankEntityFrameWork.Repositories;
+using Microsoft.AspNetCore.Mvc;
+
+namespace BankAPI.Controllers
+{
+ [Route("api/v1/[controller]")]
+    [ApiController]
+    public class AccountController : ControllerBase
+    {
+        private BaseRepository<Customer> _customerRepository;
+        private BaseRepository<Account> _accountRepository;
+        public AccountController(BaseRepository<Customer> customerRepository, BaseRepository<Account> accountRepository)
+        {
+            _customerRepository = customerRepository;
+            _accountRepository = accountRepository;
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            return NotFound();
+        }
+
+        [HttpPost]
+        public IActionResult Post([FromBody] AccountDTO accountDTO)
+        {
+            Customer customer = new Customer()
+            {
+                FirstName = accountDTO.Customer.FirstName,
+                LastName = accountDTO.Customer.LastName,
+                Phone = accountDTO.Customer.Phone
+            };
+            Account account = new Account(customer, Bank.CreateRandomAccountNumber(5));
+            _accountRepository.Create(account);
+            return Ok(new ResponseAccountDTO(accountDTO.Customer, account.AccountNumber, account.TotalAmount, account.Operations));
+        }
+    }
+    public record CustomerDTO(string FirstName, string LastName, string Phone);
+    public record AccountDTO(CustomerDTO Customer);
+    public record ResponseAccountDTO(CustomerDTO Customer, int NumberAccount, decimal TotalAmount = 0, List<Operation> operations = null);
+}
